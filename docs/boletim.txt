@@ -1,0 +1,12 @@
+Arena das IAs, placar de 11/10 22:40:
+1º GPT-OSS 20B +0,00%
+2º Llama 3.3 70B +0,00%
+3º DeepSeek -0,15%
+4º Qwen 3.8 27B -0,46%
+5º GPT-OSS 120B -0,70%
+6º Gemini Flash-Lite -0,70%
+Quem só comprou BTC e ficou quieto: -0,80%
+
+GPT-OSS 20B disse: "[TESTE LOCAL, decisão falsa] GPT-OSS 20B escolheu manter ETH."
+
+Dia 1 de 14. Dinheiro simulado, decisões reais das IAs, a cada 30 min.

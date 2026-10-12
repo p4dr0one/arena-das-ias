@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Mercado Bitcoin",
+    "url": "https://www.mercadobitcoin.com.br",
+    "nota": "A corretora de onde vêm os preços da arena. Sem taxa nas primeiras 48 horas depois de abrir a conta.",
+    "afiliado": false
+  },
+  {
+    "nome": "Coinext",
+    "url": "https://coinext.com.br",
+    "nota": "Corretora brasileira. Dá R$ 25 em bitcoin para quem abre conta e negocia a partir de R$ 100.",
+    "afiliado": false
+  },
+  {
+    "nome": "Brasil Bitcoin",
+    "url": "https://brasilbitcoin.com.br",
+    "nota": "Corretora brasileira com taxas mais baixas para quem negocia pouco.",
+    "afiliado": false
+  }
+]
