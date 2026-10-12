@@ -74,6 +74,10 @@
     var fora = agentes.filter(function (a) { return a.status === "sem_chave"; });
     dentro.sort(function (a, b) { return b.patrimonio - a.patrimonio; });
     var pos = 0;
+    var nomes = ["Zero", "Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez"];
+    var q = dentro.length || agentes.length;
+    var quantas = $("quantas");
+    if (quantas && q) quantas.textContent = nomes[q] || String(q);
 
     dentro.forEach(function (a) {
       pos += 1;

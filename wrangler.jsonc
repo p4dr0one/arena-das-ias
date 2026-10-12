@@ -1,0 +1,30 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "arena-das-ias",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-11",
+  "workers_dev": true,
+  "assets": {
+    "directory": "docs",
+    "binding": "ASSETS",
+    "run_worker_first": ["/data/*", "/boletim.txt", "/api/*"]
+  },
+  "triggers": {
+    "crons": ["*/30 * * * *"]
+  },
+  "ai": {
+    "binding": "AI"
+  },
+  "kv_namespaces": [
+    { "binding": "ARENA" }
+  ],
+  "vars": {
+    "GEMINI_MODEL": "gemini-2.5-flash-lite",
+    "OPENROUTER_MODEL": "nvidia/nemotron-3-super-120b-a12b:free",
+    "OPENROUTER_NOME": "Nemotron 3 Super",
+    "OPENROUTER_EMPRESA": "NVIDIA"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

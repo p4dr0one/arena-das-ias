@@ -1,0 +1,5 @@
+# Copie para .dev.vars para testar localmente. Nunca commite .dev.vars.
+ARENA_MOCK=1
+#GROQ_API_KEY=
+#GEMINI_API_KEY=
+#OPENROUTER_API_KEY=

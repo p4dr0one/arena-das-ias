@@ -5,3 +5,5 @@ __pycache__/
 docs/data/_teste/
 .claude/
 node_modules/
+.dev.vars
+.wrangler/
