@@ -429,7 +429,7 @@ def extrair_json(texto: str):
     texto = re.sub(r"<think>.*?</think>", " ", texto, flags=re.S | re.I)
     texto = re.sub(r"```(?:json)?", " ", texto, flags=re.I).strip()
     dec = json.JSONDecoder()
-    for m in re.finditer(r"\{", texto):
+    for m in re.finditer(r"[{]", texto):
         try:
             obj, _ = dec.raw_decode(texto, m.start())
         except ValueError:
